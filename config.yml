@@ -1,6 +1,6 @@
 path:
-  main: '/home/v-yyeo/mitmproxy-2-azrest'
-  code: 'mitmproxy-2-azrest'
+  main: '/home/v-yyeo/proxy-utils'
+  code: 'proxy-utils'
   log: 'log'
 
 port:
