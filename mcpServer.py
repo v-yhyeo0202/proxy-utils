@@ -41,7 +41,7 @@ async def stopHttpsLogging():
 
 if __name__ == '__main__':
     try:
-        process = subprocess.Popen(f"mitmdump -s {os.path.join(dictConfig['path']['main'], dictConfig['path']['code'], 'proxy2McpServer.py')} -p {dictConfig['port']['mcpServerProxy']}", shell=True, stdout = subprocess.DEVNULL)
+        process = subprocess.Popen(f"mitmdump -s {os.path.join(dictConfig['path']['main'], 'proxy2McpServer.py')} -p {dictConfig['port']['mcpServerProxy']}", shell=True, stdout = subprocess.DEVNULL)
         server.run(transport = 'streamable-http', port = dictConfig['port']['mcpServer'])
     finally:
         process.terminate()

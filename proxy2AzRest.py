@@ -27,7 +27,7 @@ class RequestExtractor:
         
         return
 
-logDirPath = os.path.join(dictConfig['path']['main'], dictConfig['path']['log'])
+logDirPath = os.path.join(dictConfig['path']['main'], 'log')
 shutil.rmtree(logDirPath)
 os.makedirs(logDirPath, exist_ok = True)
 nRequest = 0

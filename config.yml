@@ -1,7 +1,5 @@
 path:
   main: '/home/v-yyeo/proxy-utils'
-  code: 'proxy-utils'
-  log: 'log'
 
 port:
   mcpServerProxy: 8081
